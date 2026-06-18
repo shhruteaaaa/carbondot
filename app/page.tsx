@@ -118,11 +118,13 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
 </a>
 
             <a
-  href="#contact"
-  className="rounded-full border border-white/20 px-8 py-4 transition hover:bg-white/10"
+  
+  href="mailto:Carbondotpvtltd@gmail.com"
+  className="inline-flex items-center justify-center rounded-full border border-green-500/40 px-8 py-4 font-semibold text-green-400 transition hover:bg-green-500 hover:text-black"
 >
-  Contact Us
+  Contact
 </a>
+
           </div>
 
         </div>
@@ -224,51 +226,56 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
         while supporting a cleaner, greener future.
       </p>
 
-      <div className="grid grid-cols-2 gap-10 max-w-xl">
+      <div className="grid grid-cols-2 gap-10 max-w-2xl">
 
-        <div>
-          <div className="text-5xl font-bold text-green-500">
-            10M+
-          </div>
-          <p className="text-gray-300">
-            Tons CO₂ Captured
-          </p>
-        </div>
+  <div>
+    <h3 className="text-2xl font-bold text-green-500">
+      Scalable Carbon Capture
+    </h3>
 
-        <div>
-          <div className="text-5xl font-bold text-green-500">
-            95%
-          </div>
-          <p className="text-gray-300">
-            Capture Efficiency
-          </p>
-        </div>
-
-        <div>
-          <div className="text-5xl font-bold text-green-500">
-            50+
-          </div>
-          <p className="text-gray-300">
-            Industry Partners
-          </p>
-        </div>
-
-        <div>
-          <div className="text-5xl font-bold text-green-500">
-            3X
-          </div>
-          <p className="text-gray-300">
-            Value Generated
-          </p>
-        </div>
-
-      </div>
-
-    </div>
-
+    <p className="mt-2 text-gray-300">
+      Designed for industrial-scale deployment.
+    </p>
   </div>
 
+  <div>
+    <h3 className="text-2xl font-bold text-green-500">
+      High Efficiency
+    </h3>
+
+    <p className="mt-2 text-gray-300">
+      Focused on maximizing carbon separation.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="text-2xl font-bold text-green-500">
+      Industry Collaboration
+    </h3>
+
+    <p className="mt-2 text-gray-300">
+      Built for partnerships across sectors.
+    </p>
+  </div>
+
+  <div>
+    <h3 className="text-2xl font-bold text-green-500">
+      Economic Value
+    </h3>
+
+    <p className="mt-2 text-gray-300">
+      Turning emissions into valuable resources.
+    </p>
+  </div>
+
+</div> {/* closes grid */}
+
+</div> {/* closes max-w-3xl */}
+
+</div> {/* closes relative z-10 container */}
+
 </section>
+
 {/* INDUSTRIES SECTION */}
 <section id="industries" className="bg-black px-8 py-32">
 
@@ -292,7 +299,7 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
       {/* Steel */}
       <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
 
-        <div className="mb-4 text-5xl">🏭</div>
+        <div className="mb-4 text-5xl"></div>
 
         <h3 className="mb-4 text-2xl font-bold">
           Steel Plants
@@ -308,7 +315,7 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
       {/* Cement */}
       <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
 
-        <div className="mb-4 text-5xl">🏗️</div>
+        <div className="mb-4 text-5xl"></div>
 
         <h3 className="mb-4 text-2xl font-bold">
           Cement Industry
@@ -323,7 +330,7 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
       {/* Chemical */}
       <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
 
-        <div className="mb-4 text-5xl">🧪</div>
+        <div className="mb-4 text-5xl"></div>
 
         <h3 className="mb-4 text-2xl font-bold">
           Chemical Plants
@@ -338,7 +345,7 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
       {/* Energy */}
       <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
 
-        <div className="mb-4 text-5xl">⚡</div>
+        <div className="mb-4 text-5xl"></div>
 
         <h3 className="mb-4 text-2xl font-bold">
           Power Generation
@@ -435,106 +442,14 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
   </div>
 
 </section>
-{/* WHY CARBONDOT */}
-<section className="bg-black px-8 py-32">
 
-  <div className="mx-auto max-w-7xl">
-
-    <p className="mb-4 text-center text-green-500">
-      WHY CARBONDOT?
-    </p>
-
-    <h2 className="mb-4 text-center text-5xl font-bold">
-      Built For Impact
-    </h2>
-
-    <p className="mx-auto mb-20 max-w-3xl text-center text-gray-400">
-      CarbonDot combines environmental sustainability with economic value,
-      making carbon capture practical, scalable, and profitable.
-    </p>
-
-    <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
-
-      {/* Card 1 */}
-      <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
-
-        <div className="mb-4 text-6xl font-bold text-green-500">
-          95%
-        </div>
-
-        <h3 className="mb-2 text-xl font-semibold">
-          Capture Efficiency
-        </h3>
-
-        <p className="text-gray-400">
-          Industry-leading carbon separation performance.
-        </p>
-
-      </div>
-
-      {/* Card 2 */}
-      <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
-
-        <div className="mb-4 text-6xl font-bold text-green-500">
-          10M+
-        </div>
-
-        <h3 className="mb-2 text-xl font-semibold">
-          Tons CO₂ Removed
-        </h3>
-
-        <p className="text-gray-400">
-          Potential annual carbon reduction capacity.
-        </p>
-
-      </div>
-
-      {/* Card 3 */}
-      <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
-
-        <div className="mb-4 text-6xl font-bold text-green-500">
-          50+
-        </div>
-
-        <h3 className="mb-2 text-xl font-semibold">
-          Industry Partners
-        </h3>
-
-        <p className="text-gray-400">
-          Collaborating across multiple sectors.
-        </p>
-
-      </div>
-
-      {/* Card 4 */}
-      <div className="group rounded-3xl border border-white/10 bg-white/5 p-8 text-center transition-all duration-300 hover:-translate-y-2 hover:border-green-500/40 hover:bg-green-500/10">
-
-        <div className="mb-4 text-6xl font-bold text-green-500">
-          3X
-        </div>
-
-        <h3 className="mb-2 text-xl font-semibold">
-          Value Generated
-        </h3>
-
-        <p className="text-gray-400">
-          Creating economic value from captured emissions.
-        </p>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
 {/* TRADITIONAL VS CARBONDOT */}
 <section className="bg-black px-8 py-32">
 
   <div className="mx-auto max-w-7xl">
 
     <p className="mb-4 text-center text-green-500">
-      COMPARISON CHART⚠️
+      COMPARISON CHART
     </p>
 
     <h2 className="mb-6 text-center text-5xl font-bold">
@@ -557,19 +472,19 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
         <div className="space-y-6">
 
           <div className="rounded-2xl border border-red-500/10 p-5">
-            ❌ High Operating Cost
+            High Operating Cost
           </div>
 
           <div className="rounded-2xl border border-red-500/10 p-5">
-            ❌ Carbon Storage Only
+            Carbon Storage Only
           </div>
 
           <div className="rounded-2xl border border-red-500/10 p-5">
-            ❌ Limited Revenue Potential
+            Limited Revenue Potential
           </div>
 
           <div className="rounded-2xl border border-red-500/10 p-5">
-            ❌ Complex Deployment
+            Complex Deployment
           </div>
 
         </div>
@@ -586,19 +501,19 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
         <div className="space-y-6">
 
           <div className="rounded-2xl border border-green-500/20 p-5">
-            ✅ Lower Operating Cost
+           Lower Operating Cost
           </div>
 
           <div className="rounded-2xl border border-green-500/20 p-5">
-            ✅ Carbon Utilization
+            Carbon Utilization
           </div>
 
           <div className="rounded-2xl border border-green-500/20 p-5">
-            ✅ Revenue Generation
+            Revenue Generation
           </div>
 
           <div className="rounded-2xl border border-green-500/20 p-5">
-            ✅ Modular & Scalable
+            Modular & Scalable
           </div>
 
         </div>
@@ -700,10 +615,12 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
 
     <div className="flex justify-center gap-4">
 
-      <button className="rounded-full bg-green-500 px-8 py-4 font-semibold text-black transition hover:scale-105">
-        Contact Us
-      </button>
-
+   <a
+  href="mailto:Carbondotpvtltd@gmail.com"
+  className="rounded-full border border-white/20 px-8 py-4 transition hover:bg-white/10"
+>
+  Contact Us
+</a>
       <button className="rounded-full border border-white/20 px-8 py-4 transition hover:bg-white/10">
         Learn More
       </button>
@@ -733,8 +650,6 @@ className="h-20 md:h-15 w-auto object-contain drop-shadow-[0_0_12px_rgba(255,255
       <a href="#">Technology</a>
 
       <a href="#">Industries</a>
-
-      <a href="#">Impact</a>
 
       <a href="#">Contact</a>
 
